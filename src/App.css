@@ -1,38 +1,34 @@
-.App {
+.btn-primary {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition;
+}
+
+.btn-danger {
+  @apply bg-gray-200 px-4 py-2 rounded hover:bg-red-600 hover:text-white transition-colors;
+}
+
+.input-field {
+  @apply p-2 border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-200;
+}
+
+.table-header {
+  @apply bg-blue-500 text-white;
+}
+.table-row-header {
+  @apply border p-2 text-center hover:bg-blue-600 transition;
+}
+
+.table-cell {
+  @apply border p-1 text-center;
+}
+.dropdown-select {
+  @apply p-2 border-2 border-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400  hover:ring-2 hover:border-blue-400 text-sm w-48 cursor-pointer transition;
+}
+
+h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.divider {
+  border-top: 1px solid #ccc;
+  margin: 24px 0;
 }
