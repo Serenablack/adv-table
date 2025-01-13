@@ -1,11 +1,12 @@
 import "./App.css";
+import { TableComp } from "./components/TableComp";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <table></table>
-      </header>
+      <div className="App-container">
+        <TableComp></TableComp>
+      </div>
     </div>
   );
 }
