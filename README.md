@@ -9,8 +9,8 @@ To get the project up and running locally, follow the steps below:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone [<repository-url>](https://github.com/Serenablack/adv-table.git)
+cd adv-table
 ```
 
 ### 2. Install Dependencies
