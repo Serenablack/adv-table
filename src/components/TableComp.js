@@ -256,6 +256,11 @@ export const TableComp = () => {
               ))}
             </tbody>
           </table>
+          {displayData.length === 0 ? (
+            <h3 className="p-10 text-lg text-center">No match found</h3>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>
